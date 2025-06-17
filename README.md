@@ -119,10 +119,7 @@ Contributions are welcome! Feel free to:
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🔗 Connect
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- LinkedIn: [Your LinkedIn Profile]
 
 ---
 
