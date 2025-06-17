@@ -1,0 +1,162 @@
+Welcome to the Enhanced Expense Tracker!
+This tracker demonstrates various lambda function uses.
+
+Loading sample data...
+
+==================================================
+EXPENSE TRACKER - Lambda Functions Demo
+==================================================
+1.  Add an expense
+2.  List all expenses
+3.  Show total expenses
+4.  Filter expenses by category
+5.  Filter expenses by amount range
+6.  Show expense statistics
+7.  Show category summary
+8.  Sort expenses
+9.  Search expenses
+10. Clear all expenses
+11. Exit
+==================================================
+Enter your choice (1-11): 2
+
+📋 ALL EXPENSES:
+--------------------------------------------------------------------------------
+Amount     | Category        | Date             | Description
+--------------------------------------------------------------------------------
+$50.00 | Food | 2024-01-15 10:30 | Groceries
+$25.50 | Transport | 2024-01-16 08:15 | Gas
+$120.00 | Food | 2024-01-16 19:45 | Restaurant dinner
+$15.75 | Entertainment | 2024-01-17 20:00 | Movie ticket
+
+==================================================
+EXPENSE TRACKER - Lambda Functions Demo
+==================================================
+1.  Add an expense
+2.  List all expenses
+3.  Show total expenses
+4.  Filter expenses by category
+5.  Filter expenses by amount range
+6.  Show expense statistics
+7.  Show category summary
+8.  Sort expenses
+9.  Search expenses
+10. Clear all expenses
+11. Exit
+==================================================
+Enter your choice (1-11): 6
+
+📊 EXPENSE STATISTICS:
+Total Expenses: $211.25
+Average Expense: $52.81
+Minimum Expense: $15.75
+Maximum Expense: $120.00
+Number of Expenses: 4
+
+==================================================
+EXPENSE TRACKER - Lambda Functions Demo
+==================================================
+1.  Add an expense
+2.  List all expenses
+3.  Show total expenses
+4.  Filter expenses by category
+5.  Filter expenses by amount range
+6.  Show expense statistics
+7.  Show category summary
+8.  Sort expenses
+9.  Search expenses
+10. Clear all expenses
+11. Exit
+==================================================
+Enter your choice (1-11): 7
+
+📈 CATEGORY SUMMARY:
+------------------------------------------------------------
+Category        | Total      | Count   | Average
+------------------------------------------------------------
+Food            | $170.00    | 2       | $85.00
+Transport       | $25.50     | 1       | $25.50
+Entertainment   | $15.75     | 1       | $15.75
+
+==================================================
+EXPENSE TRACKER - Lambda Functions Demo
+==================================================
+1.  Add an expense
+2.  List all expenses
+3.  Show total expenses
+4.  Filter expenses by category
+5.  Filter expenses by amount range
+6.  Show expense statistics
+7.  Show category summary
+8.  Sort expenses
+9.  Search expenses
+10. Clear all expenses
+11. Exit
+==================================================
+Enter your choice (1-11): 4
+Enter category to filter: food
+
+📂 EXPENSES FOR "FOOD":
+--------------------------------------------------------------------------------
+Amount     | Category        | Date             | Description
+--------------------------------------------------------------------------------
+$50.00 | Food | 2024-01-15 10:30 | Groceries
+$120.00 | Food | 2024-01-16 19:45 | Restaurant dinner
+
+==================================================
+EXPENSE TRACKER - Lambda Functions Demo
+==================================================
+1.  Add an expense
+2.  List all expenses
+3.  Show total expenses
+4.  Filter expenses by category
+5.  Filter expenses by amount range
+6.  Show expense statistics
+7.  Show category summary
+8.  Sort expenses
+9.  Search expenses
+10. Clear all expenses
+11. Exit
+==================================================
+Enter your choice (1-11): 8
+
+Sort by:
+1. Amount
+2. Category
+3. Date
+4. Description
+Enter sort option (1-4): 1
+Sort in descending order? (y/n): y
+
+🔄 EXPENSES SORTED BY AMOUNT:
+--------------------------------------------------------------------------------
+Amount     | Category        | Date             | Description
+--------------------------------------------------------------------------------
+$120.00 | Food | 2024-01-16 19:45 | Restaurant dinner
+$50.00 | Food | 2024-01-15 10:30 | Groceries
+$25.50 | Transport | 2024-01-16 08:15 | Gas
+$15.75 | Entertainment | 2024-01-17 20:00 | Movie ticket
+
+==================================================
+EXPENSE TRACKER - Lambda Functions Demo
+==================================================
+1.  Add an expense
+2.  List all expenses
+3.  Show total expenses
+4.  Filter expenses by category
+5.  Filter expenses by amount range
+6.  Show expense statistics
+7.  Show category summary
+8.  Sort expenses
+9.  Search expenses
+10. Clear all expenses
+11. Exit
+==================================================
+Enter your choice (1-11): 11
+👋 Thank you for using the Expense Tracker!
+You've seen lambda functions used for:
+• Filtering and mapping data
+• Sorting with custom keys
+• Reducing data to statistics
+• Formatting output
+• Searching and data transformation
